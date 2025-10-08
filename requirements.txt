@@ -1,29 +1,29 @@
 # Core deep learning stack
-torch==2.1.2
-torchvision==0.16.2
-tqdm==4.66.1
+torch==2.3.0
+torchvision
+tqdm
 
 # Data processing + math
 numpy==1.26.4
 pandas==2.1.4
 scipy==1.11.4
-scikit-learn==1.3.2
+scikit-learn
 
 # Vision & plotting
-pillow==10.2.0
-matplotlib==3.8.2
+pillow
+matplotlib
 
 # Utilities
-requests==2.31.0
-pyyaml==6.0.1
-ftfy==6.1.3
-regex==2023.12.25
-timm==0.9.12
+requests
+pyyaml
+ftfy
+regex
+timm
 
 # Notebook experience
-jupyter==1.0.0
-ipykernel==6.26.0
-ipywidgets==8.1.1
+# jupyter==1.0.0
+# ipykernel==6.26.0
+# ipywidgets==8.1.1
 
 # Optional: WILDS datasets (for some dataset implementations)
 wilds==2.0.0
