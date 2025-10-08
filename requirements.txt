@@ -1,5 +1,5 @@
 # Core deep learning stack
-torch==2.3.0
+torch
 torchvision
 tqdm
 
