@@ -167,6 +167,5 @@ runs/
 
 
 *.gz
-*.npy
 *.zip
 test_accuracy-all_linear_combinations.csv
