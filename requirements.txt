@@ -14,5 +14,8 @@ ftfy
 regex
 timm
 
+jupyter
+ipywidgets
+
 # Optional: WILDS datasets (for some dataset implementations)
 wilds>=2.0.0
