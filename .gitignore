@@ -169,3 +169,4 @@ runs/
 *.gz
 *.zip
 test_accuracy-all_linear_combinations.csv
+archived/merge_linear_interp-clip-cifar10/cifar1098_idxs.npy
