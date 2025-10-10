@@ -12,6 +12,7 @@ scikit-learn
 # Vision & plotting
 pillow
 matplotlib
+seaborn
 
 # Utilities
 requests

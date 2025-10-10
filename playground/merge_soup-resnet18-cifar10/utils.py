@@ -82,6 +82,7 @@ def train_model(
     }
 
     # Save epoch 0 checkpoint if requested
+    # TODO: we should evaluate the epoch 0 as well, and then save the checkpoints if requested. 
     if save_epoch_0:
         epoch_0_path = os.path.join(checkpoint_dir, checkpoint_name_template.format(epoch=0))
         save_checkpoint(model, epoch_0_path)
