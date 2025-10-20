@@ -8,7 +8,7 @@ import time
 
 from timm.data.transforms_factory import transforms_imagenet_train
 
-from dataset.tiny_imagenet import TinyImageNet
+from datasets.tiny_imagenet import TinyImageNet
 from utils import ModelWrapper, maybe_dictionarize_batch, cosine_lr
 from zeroshot import zeroshot_classifier
 from openai_imagenet_template import openai_imagenet_template

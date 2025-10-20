@@ -26,5 +26,9 @@ timm
 # ipykernel==6.26.0
 # ipywidgets==8.1.1
 
+
+git+https://github.com/openai/CLIP.git@40f5484c1c74edd83cb9cf687c6ab92b28d8b656
+
+
 # Optional: WILDS datasets (for some dataset implementations)
 wilds==2.0.0

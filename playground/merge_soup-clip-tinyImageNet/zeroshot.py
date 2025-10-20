@@ -4,7 +4,7 @@ import torch
 import clip
 from tqdm import tqdm
 
-from dataset import tiny_imagenet as datasets
+from datasets import tiny_imagenet as datasets
 from utils import ModelWrapper, eval_model_on_dataset
 from openai_imagenet_template import openai_imagenet_template
 
